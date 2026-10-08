@@ -75,11 +75,12 @@ export const Navbar: React.FC = () => {
           className="relative flex items-center gap-2.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent cursor-pointer shrink-0 pr-1 py-0.5"
           title={`${siteConfig.name} - Home`}
         >
-          {/* Distinctive Dark Green Cross/Intercession Emblem */}
-          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-accent text-white flex items-center justify-center font-display italic font-semibold text-sm shadow-xs shrink-0">
-            <span>M</span>
-          </div>
-          <div className="flex flex-col text-left">
+          <img
+            src="/favicon.png"
+            alt={`${siteConfig.name} logo`}
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover shrink-0 shadow-xs"
+          />
+          <div className="flex flex-col text-left justify-center">
             <span className="font-display italic font-bold text-sm sm:text-base text-heading leading-none tracking-tight">
               Million Plus
             </span>

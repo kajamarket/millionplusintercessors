@@ -18,10 +18,12 @@ export const ContactFooter: React.FC = () => {
           {/* Brand Info */}
           <div className="lg:col-span-5 flex flex-col items-start">
             <Link to="/" className="inline-flex items-center gap-2.5 mb-4 group">
-              <div className="w-8 h-8 rounded-full bg-accent text-white flex items-center justify-center font-display italic font-semibold text-sm shadow-xs">
-                <span>M</span>
-              </div>
-              <div className="flex flex-col text-left">
+              <img
+                src="/favicon.png"
+                alt={`${siteConfig.name} logo`}
+                className="w-8 h-8 rounded-full object-cover shrink-0 shadow-xs"
+              />
+              <div className="flex flex-col text-left justify-center">
                 <span className="font-display italic font-bold text-lg text-heading leading-none">
                   {siteConfig.name}
                 </span>
