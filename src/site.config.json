@@ -1,0 +1,130 @@
+{
+  "name": "Million Plus Intercessors",
+  "domain": "millionplusintercessors.org",
+  "slug": "millionplus",
+  "wpApiUrl": "https://thetopachievers.org/wp-json/wp/v2",
+  "tagline": "Standing in the Gap for Nations",
+  "description": "A Christian prayer and intercession movement committed to raising believers to stand in the gap for individuals, families, communities, and nations.",
+  "heroEyebrow": "MILLION PLUS INTERCESSORS",
+  "heroTitle": "Raising a People Who Stand in the Gap",
+  "heroVideoUrl": "https://assets.mixkit.co/videos/41401/41401-720.mp4",
+  "heroDescription": "Mobilising and encouraging believers in committed prayer and intercession for individuals, families, communities, churches, and nations.",
+  "heroMicrocopy": "Prayer · Intercession · Unity · Nations",
+  "heroRoles": ["Intercessor", "Watchman", "Servant of God", "Believer"],
+  "heroSentence": "A faithful {role} stands in the gap.",
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about/" },
+    { "label": "Our Vision", "href": "/#vision" },
+    { "label": "Prayer & Intercession", "href": "/#prayer" },
+    { "label": "Resources", "href": "/#resources" },
+    { "label": "Articles", "href": "/blog/" },
+    { "label": "Contact", "href": "/contact/" }
+  ],
+  "social": [
+    { "label": "Twitter", "href": "https://twitter.com" },
+    { "label": "Facebook", "href": "https://facebook.com" },
+    { "label": "YouTube", "href": "https://youtube.com" }
+  ],
+  "contactEmail": "",
+  "defaultOgImage": "/og-default.jpg",
+  "stats": [],
+  "mission": {
+    "label": "A PEOPLE COMMITTED TO PRAYER",
+    "heading": "Raising a people who stand in the gap for nations.",
+    "paragraphs": [
+      "Million Plus Intercessors is a Christian prayer and intercession focused movement. We exist to encourage and mobilise believers in devoted prayer for individuals, families, communities, churches, and nations.",
+      "At the heart of the movement is the biblical conviction that God calls His people to stand before Him in intercession. When believers unite with sincerity and spiritual commitment, prayer produces lasting spiritual and practical transformation.",
+      "Through prayer fellowships, discipleship teachings, and regular intercession initiatives, we encourage believers everywhere to cultivate persistent personal prayer and participate in corporate intercession."
+    ],
+    "ctaText": "Learn More About Our Calling →",
+    "ctaHref": "/about/"
+  },
+  "editorialStatement": {
+    "statement": "Standing before God in intercession for our generation.",
+    "subtext": "Prayer · Unity · Spiritual Commitment · Transformation"
+  },
+  "categoriesSection": {
+    "label": "AREAS OF FOCUS & TEACHING",
+    "heading": "Principles of intercession, prayer and spiritual life.",
+    "intro": "Explore teachings, biblical reflections, and practical guidance on persistent prayer, standing in the gap, and seeking spiritual awakening across communities and nations.",
+    "promptDesktop": "EXPLORE A TOPIC →",
+    "promptMobile": "Swipe to explore →"
+  },
+  "categoryDescriptions": {
+    "intercession": "Teachings and insights on standing in the gap before God for communities and nations.",
+    "prayer": "Practical guidance, biblical foundations, and encouragement for daily prayer.",
+    "unity": "Believers coming together across borders and traditions around persistent intercession.",
+    "discipleship": "Nurturing spiritual maturity, godly character, and faithful Christian leadership.",
+    "inspiring-articles": "Stories and testimonies of faith, perseverance, and God’s faithfulness in challenging times.",
+    "uncategorized": "Spiritual perspectives, devotionals, and ministry reflections."
+  },
+  "tickerWords": [
+    "PRAYER",
+    "INTERCESSION",
+    "UNITY",
+    "SPIRITUAL COMMITMENT",
+    "NATIONS",
+    "CHRISTIAN SERVICE",
+    "STANDING IN THE GAP"
+  ],
+  "featuredArchive": {
+    "label": "RECENT WRITINGS & ARTICLES",
+    "heading": "Spiritual insights and teachings.",
+    "intro": "Discover recent articles, devotionals, and reflections from our ministry network to strengthen your prayer life and spiritual journey."
+  },
+  "founder": {
+    "label": "OUR STORY & LEADERSHIP",
+    "name": "Emmanuel Olu Falodun",
+    "title": "Ministry History & Leadership",
+    "paragraphs": [
+      "Million Plus Intercessors is connected with the wider Christian ministry work and teaching of Emmanuel Olu Falodun, reflecting a longstanding commitment to prayer, fasting, Christian discipleship, and spiritual leadership.",
+      "Rooted in biblical foundations and active across multiple ministry platforms, the vision remains simple: to call believers back to fervent prayer, foster godly unity, and inspire a generation that seeks God for community and continental revival."
+    ],
+    "photo": "/founder.jpg",
+    "quote": "When believers take their place in genuine intercession, they participate in what God is doing across nations.",
+    "stripText": "Books & Resources on Prayer & Discipleship",
+    "booksUrl": "https://www.amazon.com/stores/author/B00AYLJTSY"
+  },
+  "network": [
+    {
+      "name": "Faith Heroes Africa",
+      "description": "Documenting the moves of God, testimonies, and timeless legacies of faith across the African continent.",
+      "href": "https://faithheroesafrica.org",
+      "cta": "Visit →"
+    },
+    {
+      "name": "The Top Achievers Network",
+      "description": "Inspiring, equipping, and raising a new generation of leaders through impactful resources and mentorship.",
+      "href": "https://thetopachievers.org/",
+      "cta": "Visit →"
+    },
+    {
+      "name": "Online Radio",
+      "description": "Broadcasting inspiring Christian messages, worship, and leadership teaching across the globe.",
+      "href": "https://radio.thetopachievers.org/",
+      "cta": "Listen →"
+    },
+    {
+      "name": "Nations Prayer & Fasting Network",
+      "description": "Fostering collaboration, fellowship, and strategic alliances across Christian ministries in Africa.",
+      "href": "https://napfan.org",
+      "cta": "Visit →"
+    },
+    {
+      "name": "Power For Exploits",
+      "description": "Empowering believers with spiritual insight, biblical leadership principles, and ministry resources.",
+      "href": "https://powerforexploits.org",
+      "cta": "Visit →"
+    },
+    {
+      "name": "Christ Salvation",
+      "description": "Sharing the uncompromised Gospel of Jesus Christ and discipling believers into spiritual maturity.",
+      "href": "https://christsalvation.org",
+      "cta": "Visit →"
+    }
+  ],
+  "newsletter": {
+    "formAction": ""
+  }
+}

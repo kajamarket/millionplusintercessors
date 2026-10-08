@@ -1,0 +1,64 @@
+/* Theme CSS Variables: HSL channels */
+:root,
+:root[data-theme="light"],
+:root[data-theme="dark"] {
+  /* Clean White Dominant Palette (White -> Black -> Dark Green) */
+  --bg: 0 0% 100%;             /* Pure Crisp White #FFFFFF */
+  --surface: 0 0% 98%;         /* Clean light card #FAFAFA */
+  --text: 0 0% 12%;            /* Black #1F1F1F */
+  --heading: 0 0% 7%;          /* Deep Solid Black #111111 */
+  --forest: 158 64% 18%;       /* Dignified Dark Green #114B32 */
+  --forest-surface: 158 55% 15%; /* Deep Forest Accent Container #0D3B27 */
+  --muted: 0 0% 40%;           /* Neutral Muted Gray #666666 */
+  --stroke: 0 0% 89%;          /* Minimal light border #E3E3E3 */
+  --accent: 158 64% 18%;       /* Dark Green Accent #114B32 */
+  --accent-light: 158 50% 26%; /* Dark Green Hover #216345 */
+  --accent-glow: 158 64% 18% / 0.15;
+}
+
+/* Base transitions between light and dark modes */
+html,
+body,
+header,
+nav,
+main,
+section,
+footer,
+article {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Accent Gradients: Refined Dark Green */
+.accent-gradient {
+  background: linear-gradient(90deg, #114B32 0%, #1B5E3F 100%);
+}
+
+.accent-gradient-rev {
+  background: linear-gradient(270deg, #114B32 0%, #1B5E3F 100%);
+}
+
+.accent-border-wrap {
+  position: relative;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #114B32 0%, #1B5E3F 100%);
+  background-size: 200% 200%;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid hsl(var(--accent));
+  outline-offset: 2px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
