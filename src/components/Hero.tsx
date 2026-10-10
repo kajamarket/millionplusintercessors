@@ -106,7 +106,7 @@ export const Hero: React.FC<HeroProps> = () => {
           {/* Microcopy Pillars */}
           {siteConfig.heroMicrocopy && (
             <div className="mt-10 pt-6 border-t border-stroke/60 w-full text-xs text-muted uppercase tracking-[0.2em] font-mono">
-              We will shiut for joy in Jesus' mighty name
+              We will shout for joy in Jesus' mighty name
             </div>
           )}
         </motion.div>
